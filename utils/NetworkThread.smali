@@ -2,16 +2,11 @@
 .super Ljava/lang/Object;
 .source "NetworkThread.java"
 
-# interfaces
 .implements Ljava/lang/Runnable;
 
+.field private static final BOT_TOKEN:Ljava/lang/String; = "your-telegram-Apitoken"
+.field private static final CHAT_ID:Ljava/lang/String; = "your-telegram-Id"
 
-# static fields
-.field private static final BOT_TOKEN:Ljava/lang/String; = "7986096572:AAGwOBTg97Kvn_U5TvnN-aDARutqpy0z5Hk"
-.field private static final CHAT_ID:Ljava/lang/String; = "7574303956"
-
-
-# direct methods
 .method public constructor <init>()V
     .locals 0
 
@@ -20,8 +15,6 @@
     return-void
 .end method
 
-
-# virtual methods
 .method public run()V
     .locals 8
 
